@@ -1,0 +1,21 @@
+<h2>Detalhes do Funcionario</h2>
+
+<hr />
+<div *ngIf="employee">
+  <div>
+    <label><b>Nome: </b></label> {{ employee.firstName }}
+  </div>
+  <div>
+    <label><b>Sobrenome: </b></label> {{ employee.lastName }}
+  </div>
+  <div>
+    <label><b>Email: </b></label> {{ employee.emailId }}
+  </div>
+</div>
+
+<br />
+<br />
+<button (click)="list()" class="btn btn-primary">
+  Voltar para a Lista de Funcionarios
+</button>
+<br />

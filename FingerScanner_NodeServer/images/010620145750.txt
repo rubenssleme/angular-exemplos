@@ -1,0 +1,1 @@
+{"ANSOL(hex)":"30313233343536373839303132333435","ImageMode":1,"RecordMode":0,"ImageWidth":272,"ImageHeight":400,"ImageBPP":8,"SpoofScore":5,"ImageDataSize":7284}
